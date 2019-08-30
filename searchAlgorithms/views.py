@@ -8,4 +8,4 @@ from django.http import JsonResponse
 # Create your views here.
 def index(request):
     #return HttpResponse("Hello, world. You're at the polls index.")
-    return JsonResponse({'foo':'bar'})
+    return JsonResponse({'resultPhrase':'newPhrase', 'status_code':200})
