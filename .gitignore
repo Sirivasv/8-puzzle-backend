@@ -1,0 +1,4 @@
+# Some OS operations
+*.sh
+# settings file
+PuzzleBackend/settings.py
